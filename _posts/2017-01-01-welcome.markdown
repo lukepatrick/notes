@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Welcome"
+date: 2017-01-01 12:00:00
+categories: posts
+comments: true
+tags:  blog
+---
+
+Hello, glad to have you here. Welcome to my collection of notes or a blog. Looking forward to sharing my thoughts and notes as I find time to get them out to the world.
+
+
+
+
+
+

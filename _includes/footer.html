@@ -1,0 +1,21 @@
+
+
+<div class="share-page">
+    Share this on &rarr;
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+</div>
+
+
+
+<div class="footer">
+  {% assign link = '/about' %}
+  <span class="block">&copy Luke Notes 2017-{{ site.time | date: '%Y' }}</span>
+  <span class="block"><a href="{{ link | prepend: site.baseurl }}">About</a> · 
+  <a href="{{ site.baseurl }}/feed.xml">RSS</a> · 
+  <a href="https://twitter.com/{{site.twitter_username}}" target="_blank">Twitter</a> · 
+  <a href="https://github.com/{{site.github_username}}" target="_blank">GitHub</a></span>
+  <span class="block">Theme by <a href="https://github.com/heiswayi/the-plain" target="_blank">Heiswayi Nrird</a></span>
+</div>
+
