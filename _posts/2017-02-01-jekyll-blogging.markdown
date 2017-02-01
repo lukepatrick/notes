@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Jekyll Blogging"
-date: 2099-02-01 12:00:00
+date: 2017-02-01 12:00:00
+published: false
 categories: posts
-comments: true
 tags:  jekyll blog github
 ---
 
