@@ -9,7 +9,7 @@ tags:  onion omega2 iot
 
 My Omega2 has arrived! Woo!
 
-{picture}
+![Omega2 unboxed]({{site.baseurl}}/assets/onion_unboxed.png)
 
 ## What is it?
 
@@ -23,7 +23,7 @@ Check out [Onion.io](https://onion.io/) to get yours.
 
 ## First Boot
 
-{picture}
+![Omega2 boot]({{site.baseurl}}/assets/onion_running.png)
 
 It works! The package I went with has the base Omega2, the [Power Dock](https://onion.io/store/power-dock/), and [Bluetooth LE Expansion](https://onion.io/store/bluetooth-expansion/)
 
