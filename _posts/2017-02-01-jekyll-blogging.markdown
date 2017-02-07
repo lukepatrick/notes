@@ -117,4 +117,4 @@ Always be testing.
 
 [GitHub Pages](https://pages.github.com/)
 
-[Jeykll](https://jekyllrb.com/docs/home/)
+[Jekyll](https://jekyllrb.com/docs/home/)
