@@ -101,7 +101,9 @@ From here you can tweek and author your own posts using the theme you like.
 
 ## TravisCI
 
+Todo..
 
+Always be testing. 
 
 
 
