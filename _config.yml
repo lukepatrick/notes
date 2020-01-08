@@ -12,11 +12,11 @@ twitter_username:   lucus_patrick
 github_username:    lukepatrick # GitHub username
 
 # Site Settings
-baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+url:                https://lukepatrick.github.io/ # main url
+baseurl:            /notes
 permalink:          /:year/:month/:day/:title.html # Post permalink
 timezone:           US/Mountain # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-production_url:     "https://lukepatrick.github.io/notes/"
-url:                "https://lukepatrick.github.io/notes/"
+mathjax:            true  # enables support for mathjax - set to 'false' to disable
 
 # Site Build
 highlighter:        rouge
@@ -31,8 +31,8 @@ sass:
 
 # Other Params
 include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
-gems:
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+plugins:
   - jekyll-sitemap
 
 compress_html:
