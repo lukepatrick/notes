@@ -74,7 +74,8 @@ Another unique aspect of REST is that REST APIs focus on **resources** (that is,
 
 #### URL and HTTP methods
 
-Resource Collection</br>
+Resource Collection
+
 `http://api.example.com/resources/`
 
 | Action        | Results |
@@ -84,7 +85,8 @@ Resource Collection</br>
 | POST | Create a new entry in the collection. |
 | DELETE | Delete the entire collection. |
 
-Resource Element</br>
+Resource Element
+
 `http://api.example.com/resources/17`
 
 | Action        | Results |
@@ -116,7 +118,8 @@ How to use OpenAPI
 
 As API documents
 
-Basic Structure</br>
+Basic Structure
+
 You can write OpenAPI definitions in YAML or JSON. A sample OpenAPI 3.0 definition written in YAML looks like:
 
 ```yaml
@@ -207,6 +210,7 @@ OpenAPI lets you describe APIs protected using the following security schemes:
   - [Cookie authentication](https://swagger.io/docs/specification/authentication/cookie-authentication/)
 - [OAuth 2](https://swagger.io/docs/specification/authentication/oauth2/)
 - [OpenID Connect Discovery](https://swagger.io/docs/specification/authentication/openid-connect-discovery/)
+
 This example shows how various security schemes are defined. The *BasicAuth*, *BearerAuth* names and others are arbitrary names that will be used to refer to these definitions from other places in the spec.
 
 ```yaml
