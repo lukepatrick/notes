@@ -17,6 +17,7 @@ baseurl:            /notes
 permalink:          /:year/:month/:day/:title.html # Post permalink
 timezone:           US/Mountain # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
+logo_url:           /notes/assets/logo.png
 
 # Site Build
 highlighter:        rouge
